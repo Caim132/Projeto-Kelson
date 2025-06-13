@@ -36,10 +36,6 @@ Este é um aplicativo mobile desenvolvido com **React Native** que permite o ger
 - Mostra os dados do usuário logado.
 - Opção para logout.
 
-markdown
-Copiar
-Editar
-
 ## 🔧 Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
