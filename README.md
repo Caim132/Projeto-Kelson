@@ -1,42 +1,40 @@
-# Apresentação do Projeto
-Este é um aplicativo mobile com funcionalidades de autenticação de usuários e gerenciamento de cursos. Ele permite aos usuários criarem contas, fazerem login, visualizarem cursos e detalhes, e gerenciarem seu perfil. A aplicação utiliza React Native e a navegação é feita com o React Navigation. O backend e a autenticação são providos pelo Firebase.
+# 📱 Projeto Mobile - Gerenciador de Cursos
 
-# Funcionamento das Telas
+Este é um aplicativo mobile desenvolvido com **React Native** que permite o gerenciamento de cursos, incluindo autenticação de usuários, visualização de cursos e perfil pessoal. O projeto utiliza **Firebase** como backend para autenticação e banco de dados.
 
-LoginScreen.js
--Tela de login onde o usuário informa e-mail e senha.
+## 🚀 Funcionalidades
 
-Validações básicas.
+- ✅ Cadastro e login de usuários
+- ✅ Listagem de cursos
+- ✅ Visualização de detalhes de cada curso
+- ✅ Criação e edição de cursos
+- ✅ Perfil do usuário
+- ✅ Logout
 
--Botão para redirecionar para a tela de registro.
--Ao logar com sucesso, o usuário é redirecionado para a HomeScreen.
+## 🧭 Telas do Aplicativo
 
-RegisterScreen.js
+### 🔐 Login (`LoginScreen.js`)
+- Tela de autenticação com e-mail e senha.
+- Link para criação de nova conta.
 
--Tela para criação de conta.
--Campos: nome, e-mail, senha e confirmação de senha.
--Criação do usuário via Firebase Authentication.
--Após cadastro, redireciona para a tela de login.
+### 📝 Cadastro (`RegisterScreen.js`)
+- Formulário para registrar novos usuários.
+- Campos: nome, e-mail, senha e confirmação.
 
-HomeScreen.js
+### 🏠 Home (`HomeScreen.js`)
+- Exibe uma lista de cursos disponíveis.
+- Acesso aos detalhes dos cursos.
 
--Tela inicial após login.
--Mostra lista de cursos (possivelmente com dados do Firebase Firestore).
--A partir daqui o usuário pode acessar a tela de detalhes do curso.
+### 📄 Detalhes do Curso (`DetailsScreen.js`)
+- Mostra informações completas de um curso selecionado.
 
-DetailsScreen.js
+### ➕ Formulário de Curso (`CursoFormScreen.js`)
+- Adiciona ou edita informações de um curso.
+- Campos para título, descrição, entre outros.
 
--Mostra os detalhes de um curso selecionado.
--Exibe informações como título, descrição e talvez uma imagem.
+### 👤 Perfil (`ProfileScreen.js`)
+- Mostra os dados do usuário logado.
+- Opção para logout.
 
-CursoFormScreen.js
-
--Tela para adicionar ou editar um curso.
--Formulário com campos para nome, descrição, etc.
--Utiliza Firebase para armazenar os dados.
-
-ProfileScreen.js
-
--Exibe dados do usuário logado.
--Pode conter botão para logout e editar informações.
+## 🗂 Estrutura do Projeto
 
