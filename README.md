@@ -38,3 +38,59 @@ Este é um aplicativo mobile desenvolvido com **React Native** que permite o ger
 
 ## 🗂 Estrutura do Projeto
 
+projetomobile-main/
+├── App.js # Componente principal
+├── index.js # Inicialização do app
+├── assets/ # Ícones e imagens
+├── src/
+│ ├── config/
+│ │ └── firebaseConfig.js # Configurações do Firebase
+│ ├── context/
+│ │ └── AuthContext.js # Contexto de autenticação
+│ ├── navigation/
+│ │ └── AppNavigation.js # Configuração de rotas
+│ └── screens/
+│ ├── LoginScreen.js
+│ ├── RegisterScreen.js
+│ ├── HomeScreen.js
+│ ├── DetailsScreen.js
+│ ├── CursoFormScreen.js
+│ └── ProfileScreen.js
+
+markdown
+Copiar
+Editar
+
+## 🔧 Tecnologias Utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [Firebase Authentication](https://firebase.google.com/products/auth)
+- [Firebase Firestore](https://firebase.google.com/products/firestore)
+- [React Navigation](https://reactnavigation.org/)
+- Context API
+
+## ▶️ Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projetomobile-main.git
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+Configure o Firebase:
+
+Altere o arquivo src/config/firebaseConfig.js com suas credenciais do Firebase.
+
+Execute o app:
+
+bash
+Copiar
+Editar
+npx expo start
+💡 Este projeto foi criado com Expo. Certifique-se de ter o Expo CLI instalado globalmente (npm install -g expo-cli).
+
+📄 Licença
+Este projeto está licenciado sob a MIT License.
