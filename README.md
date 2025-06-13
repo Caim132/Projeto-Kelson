@@ -36,27 +36,6 @@ Este é um aplicativo mobile desenvolvido com **React Native** que permite o ger
 - Mostra os dados do usuário logado.
 - Opção para logout.
 
-## 🗂 Estrutura do Projeto
-
-projetomobile-main/
-├── App.js # Componente principal
-├── index.js # Inicialização do app
-├── assets/ # Ícones e imagens
-├── src/
-│ ├── config/
-│ │ └── firebaseConfig.js # Configurações do Firebase
-│ ├── context/
-│ │ └── AuthContext.js # Contexto de autenticação
-│ ├── navigation/
-│ │ └── AppNavigation.js # Configuração de rotas
-│ └── screens/
-│ ├── LoginScreen.js
-│ ├── RegisterScreen.js
-│ ├── HomeScreen.js
-│ ├── DetailsScreen.js
-│ ├── CursoFormScreen.js
-│ └── ProfileScreen.js
-
 markdown
 Copiar
 Editar
